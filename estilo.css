@@ -17,7 +17,7 @@ header h1 {
     color: var(--white);
     text-align: center;
 }
-header nav {
+/* header nav {
     display: flex;
     align-items: center;
     width: 100%;
@@ -42,6 +42,27 @@ header nav ul li a {
     text-decoration: none;
     color: var(--white);
     font-size: larger;
+} */
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary);
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+header nav ul li {
+    padding: 0.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 2rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: large;
 }
 main.inicio div {
     margin: 0.5rem;
@@ -50,14 +71,18 @@ main.inicio div h3 {
     padding: 0.6rem;
 }
 /* Tabela */
-main.tabela p {
+main.tabela caption {
     margin-top: 1rem;
-    text-align: center;
 }
 table {
     margin: auto;
     margin-bottom: 3rem;
     table-layout: fixed;
+}
+table tbody tr td.mat{
+    text-align: left;
+}
+table tbody tr td {
     text-align: center;
 }
 table tr th, table tr td {
@@ -74,7 +99,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
-footer p {
+footer div {
     color: var(--white);
     padding: 0.4rem;
 }
