@@ -11,7 +11,7 @@
 }
 .header {
     background-image: url(./img/banner.jpeg);
-    padding: 1.5rem;;
+    padding: 2rem;
 }
 header h1 {
     color: var(--white);
@@ -26,18 +26,19 @@ header nav {
 header nav ul {
     list-style-type: none;
     display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 header nav ul li {
-    padding: 0.5rem;
+    padding: 0.2rem;
     height: 100%;
     display: flex;
     justify-content: space-around;
-    padding-inline: 2rem;
 }
 header nav ul li a {
     text-decoration: none;
     color: var(--white);
-    font-size: large;
+    font-size: x-large;
 }
 main.inicio div {
     margin: 0.5rem;
@@ -73,11 +74,34 @@ table tbody tr td {
     text-align: center;
 }
 table tr th, table tr td {
-    border: 0.1rem solid black;
+    border: 0.1rem solid var(--black);
     padding: 1rem;
 }
 table{
     border-collapse: collapse;
+}
+/* Âncora */
+section {
+    margin: 0.5rem;
+}
+section ol li {
+    margin: 1rem;
+}
+section ol li a {
+    text-decoration: none;
+    color: var(--black);
+}
+#resposta1 a {
+    text-decoration: none;
+    color: var(--black);
+}
+#resposta2 a {
+    text-decoration: none;
+    color: var(--black);
+}
+#resposta3 a {
+    text-decoration: none;
+    color: var(--black);
 }
 footer {
     background-color: var(--primary);
