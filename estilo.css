@@ -10,39 +10,14 @@
     --white: #FFF;
 }
 .header {
-    background-image: url(./img/imagem.jpg);
+    background-image: url(./img/banner.jpeg);
     padding: 1.5rem;;
 }
 header h1 {
     color: var(--white);
     text-align: center;
+    text-shadow: 1.5px 1px var(--black);
 }
-/* header nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-    background-color: var(--primary);
-    padding: 0.1rem;
-    text-align: center;
-}
-header nav ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-header nav ul li {
-    padding-right: 5rem;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-header nav ul li a {
-    text-decoration: none;
-    color: var(--white);
-    font-size: larger;
-} */
 header nav {
     display: flex;
     justify-content: space-around;
@@ -69,6 +44,18 @@ main.inicio div {
 }
 main.inicio div h3 {
     padding: 0.6rem;
+}
+main.inicio div.um p {
+    text-align: justify;
+}
+main.inicio div.dois ol li {
+    margin-left: 1.5rem;
+    text-align: justify;
+    list-style-type: upper-roman;
+}
+main.inicio div.tres ol li {
+    margin-left: 1.5rem;
+    list-style-type: square;
 }
 /* Tabela */
 main.tabela caption {
