@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../estilo.css">
     <title>Contato</title>
 </head>
+
 <body>
     <header>
         <h1 class="header">CEFET-MG - Campus Varginha - Curso Técnico</h1>
@@ -29,11 +31,64 @@
     </header>
     <main>
         <form action="" method="post" enctype="multipart/form-data">
-            <p>Nome</p>
+            <fieldset>
+                <legend>Contato</legend>
+                <p>Nome: <input type="text" name="nome" placeholder="João"><br></p>
+                <p>Email: <input type="email" name="email" placeholder="name@email"><br></p>
+                <p><label for="masc">Masculino</label>
+                    <input type="radio" name="sexo" id="masc" value="Masculino">
+                    <label for="fem">Feminino</label>
+                    <input type="radio" name="sexo" id="fem" value="Feminino">
+                </p>
+                <p>
+                    <label for="estado">Estado/Cidade</label>
+                    <select name="estado" id="">
+                        <option value=""></option>
+                        <option value="1">AC</option>
+                        <option value="2">AL</option>
+                        <option value="3">AP</option>
+                        <option value="4">AM</option>
+                        <option value="5">BA</option>
+                        <option value="6">CE</option>
+                        <option value="27">DF</option>
+                        <option value="7">ES</option>
+                        <option value="8">GO</option>
+                        <option value="9">MA</option>
+                        <option value="10">MT</option>
+                        <option value="11">MS</option>
+                        <option value="12">MG</option>
+                        <option value="13">PA</option>
+                        <option value="14">PB</option>
+                        <option value="15">PR</option>
+                        <option value="16">PE</option>
+                        <option value="17">PI</option>
+                        <option value="18">RJ</option>
+                        <option value="19">RN</option>
+                        <option value="20">RS</option>
+                        <option value="21">RO</option>
+                        <option value="22">RR</option>
+                        <option value="23">SC</option>
+                        <option value="24">SP</option>
+                        <option value="25">SE</option>
+                        <option value="26">TO</option>
+                    </select>
+                    <input type="text" name="cidade" placeholder=" Varginha"><br />
+                </p>
+                <p>Selecione um arquivo <input type="file" name="arquivo"><br></p>
+                <p>
+                    <label for="sug">Sugestões</label> <br>
+                    <textarea name="sug" id="sug" cols="50" rows="10" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+            </fieldset>
         </form>
     </main>
     <footer>
         <div>© copyleft</div>
     </footer>
 </body>
+
 </html>
