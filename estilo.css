@@ -121,9 +121,22 @@ section ol li a {
 /* Formulário */
 form {
     display: flex;
-    margin-top: 1rem;
+    margin: 0.5rem;
 }
-
+form fieldset {
+    padding: 0.5rem;
+    width: 100%;
+}
+form fieldset div {
+    padding: 0.1rem;
+}
+form fieldset div button {
+    background-color: var(--primary);
+    border-radius: 100%;
+    color: var(--white);
+    padding: 0.5rem;
+    height: 3.5rem;
+}
 /* Rodapé */
 footer {
     background-color: var(--primary);
