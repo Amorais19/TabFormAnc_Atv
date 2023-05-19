@@ -48,7 +48,7 @@ main.inicio div {
 main.inicio div h3 {
     padding: 0.6rem;
 }
-main.inicio div.um p {
+main.inicio div.um article {
     text-align: justify;
 }
 main.inicio div.dois ol li {
