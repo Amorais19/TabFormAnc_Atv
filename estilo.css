@@ -66,8 +66,9 @@ main.tabela caption {
 }
 table {
     margin: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 0.5rem;
     table-layout: fixed;
+    width: 99%;
 }
 table tbody tr td.mat{
     text-align: left;
@@ -120,10 +121,9 @@ section ol li a {
 /* Formulário */
 form {
     display: flex;
-    justify-content: center;
     margin-top: 1rem;
-    padding: 0.5;
 }
+
 /* Rodapé */
 footer {
     background-color: var(--primary);
